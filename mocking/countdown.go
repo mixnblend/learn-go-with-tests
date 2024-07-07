@@ -20,12 +20,6 @@ func (c *ConfigurableSleeper) Sleep() {
 	c.sleep(c.duration)
 }
 
-type DefaultSleeper struct{}
-
-func (d *DefaultSleeper) Sleep() {
-	time.Sleep(1 * time.Second)
-}
-
 const finalWord = "Go!"
 const countDownStart = 3
 

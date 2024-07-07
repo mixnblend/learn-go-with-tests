@@ -7,10 +7,6 @@ import (
 	"time"
 )
 
-type SpySleeper struct {
-	Calls int
-}
-
 type SpyCountDownOperations struct {
 	Calls []string
 }
